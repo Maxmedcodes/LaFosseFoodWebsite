@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: "neuton", sans-serif;
+}
+
+header{
+    background-color: aliceblue;
+    height: 300px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+.main .images{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap: 15px;
+
+}
+.main img{
+    height: 250px;
+    width: 250px;
+    border-radius: 5%;
+}
+
+.trending-images{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background-color: aliceblue;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+hr{
+    height: 5px;
+    width: 80%;
+    background-color: black;
+    border: none;
+}
+.main h2{
+    margin-left: 160px;
+}
+.sales{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+     justify-content: center;
+}
+.sales p{
+    margin-right: 13px;
+    font-size: 40px;
+}
+
+.sales-text {
+    animation: sales-text 1s linear infinite;
+    color: darkgreen;
+    display: flex;
+  }
+  
+  @keyframes sales-text {  
+    50% { opacity: 0; }
+    
+  }
